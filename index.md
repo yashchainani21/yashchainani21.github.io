@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a PhD candidate studying computational biology & cheminformatics at the department of chemical engineering at Northwestern University. I am also a part of the new pathway development group at the Joint BioEnergy Institute within Lawrence Berkeley National Laboratory. My thesis focuses on the development of retrobiosynthesis software & machine learning models to help synthetic biologists discover novel metabolic pathways to key small-molecules for biomanufacturing. 
 
 ## Research Interests
 
