@@ -173,9 +173,7 @@ papertitle {
   width: 300px !important;
   height: auto;
   padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+        border: 2px solid rgba(0, 0, 0, 0.2);
       }
 
     #header .image.avatar {
@@ -207,7 +205,6 @@ h1 {
   font-size: 2.2em;
 }
 // Removed misplaced font-size property
-}
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
@@ -226,7 +223,6 @@ h2 {
   font-size: 1.7em;
 }
 // Removed misplaced color and text-decoration properties
-}
 
 a:hover {
   color:#069;
@@ -434,6 +430,7 @@ footer {
         border-radius: 100%;
         width: 117px;
         padding:20px;
+        border: 2px solid rgba(0, 0, 0, 0.2);
       }
   #head1o2 {
     visibility: hidden;
@@ -491,6 +488,7 @@ footer {
       border-radius: 100%;
       width: 95px;
       padding:20px;
+      border: 2px solid rgba(0, 0, 0, 0.2);
   }
   #head1o2 {
     visibility: hidden;
