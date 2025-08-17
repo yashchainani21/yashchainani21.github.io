@@ -36,6 +36,15 @@
 
   </head>
   <body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="/publications/" class="nav-link {% if page.url == '/publications/' %}active{% endif %}">Publications</a>
+        <a href="/blog/" class="nav-link {% if page.url == '/blog/' %}active{% endif %}">Blog</a>
+      </div>
+    </nav>
+    
     <div class="wrapper">
       <header>
         
@@ -50,11 +59,8 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="https://northwestern.edu" rel="noopener"><autocolor>Northwestern University</autocolor></a> & <a href="https://jbei.org" rel="noopener"><autocolor>Joint BioEnergy Institute</autocolor></a> | prev. at <a href="https://tatta.bio" rel="noopener"><autocolor>Tatta Bio</autocolor></a>
         <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
         {% endif %}
 
         <br>

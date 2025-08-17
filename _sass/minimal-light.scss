@@ -217,12 +217,10 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.2);
   width: 300px;
   height: auto;
   padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
       }
 
     #header .image.avatar {
@@ -511,6 +509,7 @@ footer {
 
    .image.avatar img {
         border-radius: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.2);
         width: 117px;
         padding:20px;
       }
@@ -565,6 +564,7 @@ footer {
 
   .image.avatar img {
       border-radius: 100%;
+      border: 2px solid rgba(0, 0, 0, 0.2);
       width: 95px;
       padding:20px;
   }
