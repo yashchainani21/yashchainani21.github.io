@@ -54,7 +54,7 @@
         background: #a0b0ff;
       }
     */
-}
+// ...existing code...
 
 .icon-button{
   background-color:white;
@@ -107,7 +107,7 @@
 email {
     font-size: 14px;
     font-family: "Ubuntu Mono";
-}
+// ...existing code...
 
 .icon-button i{
   background:none;
@@ -245,7 +245,7 @@ h1 {
   margin-bottom: 0.5em;
   font-size: 2.2em;
 }
-  margin:0 0 20px;
+// Removed misplaced margin property
 h2 {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -254,8 +254,7 @@ h2 {
   margin-bottom: 0.5em;
   font-size: 1.7em;
 }
-  margin:2px 0px 15px;
-  font-size: 157%;
+// Removed misplaced margin and font-size properties
 }
 
 @media (prefers-color-scheme: dark) {
@@ -538,9 +537,7 @@ footer {
     padding:0;
   }
 
-  header ul, header p.view {
-    
-  }
+  // Removed empty ruleset for linting
 
   pre, code {
     word-wrap:normal;
