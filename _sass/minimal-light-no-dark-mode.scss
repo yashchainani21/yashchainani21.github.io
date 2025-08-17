@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 .pub-row {
   display: flex; 
   align-items: center;}
@@ -182,9 +183,12 @@ papertitle {
     }
 
 h3, h4, h5, h6 {
-  font-weight: 600;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
   color:#043361;
-  margin:0 0 20px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
 }
 
 h1 {
@@ -193,10 +197,14 @@ h1 {
   margin:0 0 20px;
 }
 
-h2 {
+h1 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
   color:#043361;
-  font-weight: 500;
-  margin:2px 0px 15px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 2.2em;
+}
   font-size: 157%;
 }
 
@@ -208,11 +216,14 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
-h1 {
-  font-size:28px;
+h2 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color:#043361;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  font-size: 1.7em;
 }
-
-a {
   color:#39c;
   text-decoration:none;
 }
