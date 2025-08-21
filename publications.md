@@ -1,10 +1,10 @@
 ---
-layout: homepage
-title: Publications
+layout: page
+title: Research
 permalink: /publications/
 ---
 
-# Publications
+# Research
 
 Below are my academic publications and research contributions:
 

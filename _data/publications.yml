@@ -1,22 +1,28 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Merging the computational design of chimeric type I polyketide synthases with enzymatic pathways for chemical biosynthesis"
+    authors: <strong>Yash Chainani</strong>, Jacob Diaz, Margaret Guilarte-Silva, Vincent Blay, Quan Zhang, William Sprague, Keith E. J. Tyo, Linda J. Broadbelt, Aindrila Mukhopadhyay, Jay D. Keasling, Hector Garcia Martin & Tyler W. H. Backman
+    conference_short: Nat Commun
+    conference: <strong>Nature Communications</strong>, 2025.
+    pdf: https://www.nature.com/articles/s41467-025-61160-y
+    journal_link: https://www.nature.com/articles/s41467-025-61160-y
+    doi: 10.1038/s41467-025-61160-y
+    notes: Published
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "DORA-XGB: an improved enzymatic reaction feasibility classifier trained using a novel synthetic data approach"
+    authors: <strong>Yash Chainani</strong>, Zhuofu Ni, Kevin M. Shebek, Linda J. Broadbelt, Keith E. J. Tyo
+    conference_short: Mol Syst Des Eng
+    conference: <strong>Molecular Systems Design & Engineering</strong>, 2025.
+    pdf: https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d
+    journal_link: https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d
+    doi: 10.1039/D4ME00118D
+    notes: Published
+
+  - title: "Coupling chemistry and biology for the synthesis of advanced bioproducts"
+    authors: <strong>Yash Chainani</strong>, Geoffrey Bonnanzio, Keith E. J. Tyo, Linda J. Broadbelt
+    conference_short: Curr Opin Biotechnol
+    conference: <strong>Current Opinion in Biotechnology</strong>, 2023.
+    pdf: https://doi.org/10.1016/j.copbio.2023.102992
+    journal_link: https://www.sciencedirect.com/science/article/abs/pii/S0958166923001027
+    doi: 10.1016/j.copbio.2023.102992
+    notes: Published

@@ -193,3 +193,16 @@ section {
 body, html {
   background-color: #f9f7f4 !important;
 }
+
+/* Custom page layout for non-homepage pages */
+.page-layout {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-content {
+  background-color: #f9f7f4 !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
