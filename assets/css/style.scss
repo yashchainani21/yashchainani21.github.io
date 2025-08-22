@@ -24,9 +24,18 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 20px;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-link {
@@ -69,6 +78,26 @@ header {
   /* Reset header margin on smaller screens */
   header {
     margin-top: 0px !important;
+  }
+}
+
+/* Responsive navigation for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    position: static;
+    transform: none;
+    order: 2;
+  }
+  
+  .dark-mode-toggle {
+    margin-left: 0;
+    order: 1;
   }
 }
 
@@ -205,4 +234,105 @@ body, html {
   background-color: #f9f7f4 !important;
   width: 100% !important;
   padding: 0 !important;
+}
+
+/* Dark mode toggle button styling */
+.dark-mode-toggle {
+  background: transparent;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-left: auto;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #333;
+  color: #f9f7f4;
+  transform: scale(1.1);
+}
+
+/* Manual dark mode styles - override system preference when data-theme is set */
+[data-theme="dark"] {
+  background-color: #20212b !important;
+  color: #dadbdf !important;
+}
+
+[data-theme="dark"] body {
+  background-color: #20212b !important;
+  color: #dadbdf !important;
+}
+
+[data-theme="dark"] .main-nav {
+  background-color: #20212b !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-theme="dark"] .nav-link {
+  color: #dadbdf !important;
+}
+
+[data-theme="dark"] .nav-link:hover {
+  color: #3eb7f0 !important;
+}
+
+[data-theme="dark"] .nav-link.active {
+  color: #3eb7f0 !important;
+}
+
+[data-theme="dark"] .dark-mode-toggle {
+  border-color: #dadbdf;
+  color: #dadbdf;
+}
+
+[data-theme="dark"] .dark-mode-toggle:hover {
+  background-color: #dadbdf;
+  color: #20212b;
+}
+
+[data-theme="dark"] .wrapper {
+  background-color: #20212b !important;
+}
+
+[data-theme="dark"] section {
+  background-color: #20212b !important;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: #3eb7f0 !important;
+}
+
+[data-theme="dark"] a {
+  color: #3eb7f0 !important;
+}
+
+[data-theme="dark"] .social-icons a {
+  color: #3eb7f0 !important;
+}
+
+[data-theme="dark"] .social-icons a:hover {
+  background-color: #20212b;
+  color: #dadbdf;
+  transform: scale(1.2);
+}
+
+[data-theme="dark"] strong,
+[data-theme="dark"] b {
+  color: #eeeff0 !important;
+}
+
+[data-theme="dark"] papertitle {
+  color: #eeeff0 !important;
 }

@@ -39,9 +39,14 @@
     <!-- Navigation -->
     <nav class="main-nav">
       <div class="nav-container">
-        <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
-        <a href="/publications/" class="nav-link {% if page.url == '/publications/' %}active{% endif %}">Research</a>
-        <a href="/blog/" class="nav-link {% if page.url == '/blog/' %}active{% endif %}">Blog</a>
+        <div class="nav-links">
+          <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+          <a href="/publications/" class="nav-link {% if page.url == '/publications/' %}active{% endif %}">Research</a>
+          <a href="/blog/" class="nav-link {% if page.url == '/blog/' %}active{% endif %}">Blog</a>
+        </div>
+        <button id="dark-mode-toggle" class="dark-mode-toggle" title="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
       </div>
     </nav>
     
@@ -115,6 +120,7 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/dark-mode-toggle.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
