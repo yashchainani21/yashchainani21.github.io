@@ -122,7 +122,7 @@ canonical: https://minimal-light-theme.yliu.me/
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
+cv_link: assets/files/Yash_CV_updated_Aug_22_2025.pdf
 github_link: https://github.com/
 linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
