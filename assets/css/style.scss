@@ -72,7 +72,7 @@ header {
 /* Responsive spacing for different screen sizes */
 @media screen and (max-width: 960px) {
   .wrapper {
-    margin-top: 40px !important;
+    margin-top: 60px !important;
   }
   
   /* Reset header margin on smaller screens */
@@ -86,7 +86,7 @@ header {
   .nav-container {
     flex-direction: column;
     gap: 15px;
-    padding: 10px 20px;
+    padding: 15px 20px;
   }
   
   .nav-links {
@@ -98,6 +98,22 @@ header {
   .dark-mode-toggle {
     margin-left: 0;
     order: 1;
+  }
+  
+  /* Increase top margin for mobile to account for taller navigation */
+  .wrapper {
+    margin-top: 100px !important;
+  }
+}
+
+/* Additional mobile breakpoint for very small screens */
+@media screen and (max-width: 480px) {
+  .wrapper {
+    margin-top: 110px !important;
+  }
+  
+  .nav-container {
+    padding: 20px;
   }
 }
 
