@@ -18,15 +18,15 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 - **08/2025:** Completed my research internship at [Tatta Bio](tatta.bio) in Cambridge, MA. At Tatta, I had the opportunity to work in a small of team 6 and explore several projects at the intersection of machine learning, genomics, and cheminformatics.
 
-- **07/2025:** Our work on the *de novo* design of biosynthetic pathways with polyketide synthase megaenzymes is published in [Nature Communications](https://www.nature.com/articles/s41467-025-61160-y)!
+- **07/2025:** Our work on the *de novo* and machine learning-aided design of biosynthetic pathways with polyketide synthase megaenzymes is published in [*Nature Communications](https://www.nature.com/articles/s41467-025-61160-y)!
 
 - **06/2025:** Moved to Cambridge, MA to start my role as an ML intern at [Tatta Bio](tatta.bio).
 
-- **03/2025:** Presented my work on the *de novo* design of biosynthetic pathways with polyketide synthase megaenzymes at the DOE Biological Systems Science Division (BSSD) PI meeting in Washington DC.
+- **03/2025:** Presented my work on the *de novo* and machine learning-aided design of biosynthetic pathways with polyketide synthase megaenzymes at the DOE Biological Systems Science Division (BSSD) PI meeting in Washington DC.
 
 - **01/2025:** Presented my work on the *de novo* design of biosynthetic pathways with polyketide synthase megaenzymes at the [Society for Industrial Microbiology and Biotechnology (SIMB) Annual Meeting, Natural Product Discovery in the Genomic Era](https://www.simbhq.org/np/) in San Diego, CA.
 
-- **11/2024:** Our work on synthetically generating infeasible enzymatic reactions to augment known, feasible reactions is published in the [Royal Society of Chemistry's *Molecular Systems Design and Engineering* journal](https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d)!
+- **11/2024:** Our work on synthetically generating infeasible enzymatic reactions to augment known, feasible reactions and training supervised classifiers on the resulting dataset is published in the [Royal Society of Chemistry's *Molecular Systems Design and Engineering* journal](https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d)!
 
 - **10/2024:** Gave a talk on my work on harnessing the biosynthetic machinery of natural products for the design of novel biosynthetic pathways to high-value commodity chemicals at the [American Institute for Chemical Engineer's (AiChE) annual meeting](https://aiche.confex.com/aiche/2024/meetingapp.cgi/Paper/691162) in San Diego, CA. 
 

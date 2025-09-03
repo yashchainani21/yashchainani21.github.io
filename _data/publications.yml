@@ -7,6 +7,7 @@ main:
     pdf: https://www.nature.com/articles/s41467-025-61160-y
     journal_link: https://www.nature.com/articles/s41467-025-61160-y
     doi: 10.1038/s41467-025-61160-y
+    image: /assets/img/biopks_pipeline_fig.png
     notes: Published
 
   - title: "DORA-XGB: an improved enzymatic reaction feasibility classifier trained using a novel synthetic data approach"
@@ -16,6 +17,7 @@ main:
     pdf: https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d
     journal_link: https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d
     doi: 10.1039/D4ME00118D
+    image: /assets/img/DORA_XGB_image.png
     notes: Published
 
   - title: "Coupling chemistry and biology for the synthesis of advanced bioproducts"
@@ -25,4 +27,5 @@ main:
     pdf: https://doi.org/10.1016/j.copbio.2023.102992
     journal_link: https://www.sciencedirect.com/science/article/abs/pii/S0958166923001027
     doi: 10.1016/j.copbio.2023.102992
+    image: /assets/img/COBIOT_paper_image.jpeg
     notes: Published
