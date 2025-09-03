@@ -16,4 +16,16 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 - **09/2025:** Moved back to Chicago, IL from Cambridge, MA to enter the final year of my PhD.
 
-- **08/2025:** Completed my research internship at [Tatta Bio](tatta.bio) in Cambridge, MA. At Tatta, I had the opportunity to explore several projects at the intersection of machine learning, genomics, and cheminformatics.
+- **08/2025:** Completed my research internship at [Tatta Bio](tatta.bio) in Cambridge, MA. At Tatta, I had the opportunity to work in a small of team 6 and explore several projects at the intersection of machine learning, genomics, and cheminformatics.
+
+- **07/2025:** Our work on the *de novo* design of biosynthetic pathways with polyketide synthase megaenzymes is published in [Nature Communications](https://www.nature.com/articles/s41467-025-61160-y).
+
+- **06/2025:** Moved to Cambridge, MA to start my role as an ML intern at [Tatta Bio](tatta.bio).
+
+- **03/2025:** Presented my work on the *de novo* design of biosynthetic pathways with polyketide synthase megaenzymes at the DOE Biological Systems Science Division (BSSD) PI meeting in DC.
+
+- **01/2025:** Presented my work on the *de novo* design of biosynthetic pathways with polyketide synthase megaenzymes at the [Society for Industrial Microbiology and Biotechnology (SIMB) Annual Meeting, Natural Product Discovery in the Genomic Era](https://www.simbhq.org/np/), San Diego, CA.
+
+- **11/2024:** Our work on synthetically generating infeasible enzymatic reactions to augment known, feasible reactions is published in the [Royal Society of Chemistry's *Molecular Systems Design and Engineering* journal](https://pubs.rsc.org/en/content/articlehtml/2024/me/d4me00118d).
+
+- **08/2024:** Moved back to Chicago, IL from Emeryville, CA to enter the fourth year of my PhD.
