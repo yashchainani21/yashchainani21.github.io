@@ -14,6 +14,6 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 ## News!
 
-- [09/2025]: Moved back to Chicago, IL from Cambridge, MA to enter the final year of my PhD.  
+- **09/2025:** Moved back to Chicago, IL from Cambridge, MA to enter the final year of my PhD.
 
-- [08/2025]: Completed my research internship at [Tatta Bio](tatta.bio) in Cambridge, MA. At Tatta, I had the opportunity to explore several projects at the intersection of machine learning, genomics, and cheminformatics.
+- **08/2025:** Completed my research internship at [Tatta Bio](tatta.bio) in Cambridge, MA. At Tatta, I had the opportunity to explore several projects at the intersection of machine learning, genomics, and cheminformatics.
