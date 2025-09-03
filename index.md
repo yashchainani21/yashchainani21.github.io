@@ -32,7 +32,7 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 - **08/2024:** Moved back to Chicago, IL from Emeryville, CA to enter the fourth year of my PhD.
 
-- **01/2024:** Moved to Emeryville, CA to start my role as a visiting computatonal biology researcher at the [Joint BioEnergy Institute](jbei.org).
+- **01/2024:** Moved to Emeryville, CA to start my role as a visiting computatonal biology researcher at the [Joint BioEnergy Institute](https://jbei.org).
 
 - **12/2023:** Our opinion piece on the development of retrosynthesis software that can merge enzymatic and synthetic organic chemistry is published in [*Current Opinion in Biotechnology*](https://www.sciencedirect.com/science/article/abs/pii/S0958166923001027).
 
