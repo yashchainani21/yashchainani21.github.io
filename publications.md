@@ -11,7 +11,7 @@ I am broadly interested in harnessing machine learning to address pressing quest
 - Building foundation models for sequence data in biology and/ or small-molecules in chemistry.
 - Leveraging foundation models to guide autonomous scientific discovery.
 - Retrosynthetic planning and reasoning with reinforcement learning.
-- Generally quantifying uncertainty/ reliability in AI4Science.
+- Generally quantifying uncertainty/ reliability in *AI4Science*.
 
 Below are my academic publications and research contributions:
 
