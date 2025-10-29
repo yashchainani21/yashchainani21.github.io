@@ -14,6 +14,8 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 ## News!
 
+- **09/2025:** Presented my thesis seminar on enhancing compute-aided synthesis planning with enzymatic and synthetic organic chemistry to the Chemical Engineering department at Northwestern!
+
 - **09/2025:** Moved back to Chicago, IL from Cambridge, MA to enter the final year of my PhD.
 
 - **08/2025:** Completed my research internship at [Tatta Bio](https://tatta.bio) in Cambridge, MA. At Tatta, I had the opportunity to work in a small of team 6 and explore several projects at the intersection of machine learning, genomics, and cheminformatics.
