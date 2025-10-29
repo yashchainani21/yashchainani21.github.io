@@ -14,6 +14,8 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 ## News!
 
+- **10/2025:** Our work on BioPKS Pipeline was (https://www.nature.com/articles/s41467-025-61160-y) awarded the most impactful publication at the Joint BioEnergy Institute annual meeting in Sonoma, CA
+
 - **09/2025:** Presented my thesis seminar on enhancing compute-aided synthesis planning with enzymatic and synthetic organic chemistry to the Chemical Engineering department at Northwestern!
 
 - **09/2025:** Moved back to Chicago, IL from Cambridge, MA to enter the final year of my PhD.
