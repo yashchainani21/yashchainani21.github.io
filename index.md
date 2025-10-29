@@ -14,7 +14,7 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 ## News!
 
-- **10/2025:** Our work on BioPKS Pipeline published in [*Nature Communications*](https://www.nature.com/articles/s41467-025-61160-y) was awarded the most impactful publication at the Joint BioEnergy Institute annual meeting in Sonoma, CA
+- **10/2025:** Our work on BioPKS Pipeline published in [*Nature Communications*](https://www.nature.com/articles/s41467-025-61160-y) was awarded the most impactful publication of 2025 at the Joint BioEnergy Institute annual meeting in Sonoma, CA!
 
 - **09/2025:** Presented my thesis seminar on enhancing compute-aided synthesis planning with enzymatic and synthetic organic chemistry to the Chemical Engineering department at Northwestern!
 
