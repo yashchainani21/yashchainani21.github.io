@@ -14,6 +14,8 @@ Prior to starting my PhD, I completed my BS in Chemical and Biomolecular Enginee
 
 ## News!
 
+- **03/2026:** Successfully defended my PhD thesis on "Machine learning and cheminformatics methods to accelerate retrosynthesis"!
+
 - **12/2025:** We launched [TridentSynth](https://tridentsynth.lbl.gov), a unified retrosynthesis platform to build pathways with biology and chemistry. TridentSynth is freely available as a webtool at [tridentsynth.lbl.gov](https://tridentsynth.lbl.gov).
 
 - **11/2025:** I will be giving a talk on [Accelerating the Computational Design of Biosynthetic Pathways with Machine Learning](https://aiche.confex.com/aiche/2025/meetingapp.cgi/Paper/716733) at the AIChE conference in Boston, MA
