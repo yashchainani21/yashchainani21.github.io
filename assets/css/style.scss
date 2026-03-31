@@ -3,14 +3,16 @@
 
 @import "minimal-light";
 
-/* Change page background to light beige */
+/* Page background on html so pattern covers entire canvas (body has minimal
+   height due to floated/fixed children in the remote theme layout) */
 body {
-  background-color: #f9f7f4 !important;
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 /* Navigation styling */
 .main-nav {
-  background-color: #f9f7f4;
+  background-color: #fafbfc;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   padding: 8px 0;
   position: fixed;
@@ -42,7 +44,7 @@ body {
   color: #333 !important;
   text-decoration: none !important;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   padding: 6px 12px;
   border-radius: 4px;
   transition: all 0.2s ease;
@@ -64,9 +66,23 @@ body {
   margin-top: 8px !important;
 }
 
+/* System dark mode: swap background SVG before JS loads to prevent flash */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #20212b !important;
+    background-image: url('../img/molecular-scatter-dark.svg') !important;
+    background-repeat: repeat !important;
+    background-size: 2000px 1200px !important;
+  }
+  .wrapper, section, header, .page-layout, .page-content {
+    background-color: #20212b !important;
+  }
+}
+
 /* Move header (sidebar) up slightly on full-width screens */
 header {
   margin-top: -20px !important;
+  background-color: #fafbfc !important;
 }
 
 /* Responsive spacing for different screen sizes */
@@ -119,16 +135,16 @@ header {
 
 /* Increase font size for better readability */
 body {
-  font-size: 16px !important;
-  line-height: 1.6 !important;
+  font-size: 19px !important;
+  line-height: 1.65 !important;
 }
 
 section {
-  font-size: 16px !important;
+  font-size: 19px !important;
 }
 
 p {
-  font-size: 16px !important;
+  font-size: 19px !important;
 }
 
 /* Improve spacing for sidebar content */
@@ -154,9 +170,9 @@ header br {
   margin-bottom: 4px !important;
 }
 
-/* Reduce spacing between affiliations and social icons */
+/* Spacing between affiliations and social icons */
 .social-icons {
-  margin-top: -40px !important;
+  margin-top: -20px !important;
 }
 
 /* Ensure consistent styling across all pages */
@@ -176,6 +192,21 @@ section h2 {
   margin-top: 1.2em !important;
   margin-bottom: 0.5em !important;
   font-size: 1.4em !important;
+}
+
+/* News list: subtle dividers between items */
+section ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+section ul li:last-child {
+  border-bottom: none;
+}
+
+[data-theme="dark"] section ul li {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Custom avatar styling to override remote theme */
@@ -224,19 +255,40 @@ header .image img {
   box-shadow: none !important;
 }
 
-/* Ensure all pages use the same wrapper and section styling */
+/* Opaque wrapper so molecules don't show between sidebar and content */
 .wrapper {
-  background-color: #f9f7f4 !important;
+  background-color: #fafbfc !important;
+  overflow: hidden;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 
 section {
-  background-color: #f9f7f4 !important;
+  background-color: #fafbfc !important;
   padding: 20px !important;
 }
 
-/* Override any theme conflicts for consistent page formatting */
-body, html {
-  background-color: #f9f7f4 !important;
+/* Root element background: pattern tiles across entire canvas */
+html {
+  background-color: #fafbfc !important;
+  background-image: url('../img/molecular-scatter-light.svg');
+  background-repeat: repeat;
+  background-size: 2000px 1200px;
+}
+
+/* Footer styling */
+.site-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+[data-theme="dark"] .site-footer {
+  border-top-color: rgba(255, 255, 255, 0.1);
+  color: #666;
 }
 
 /* Custom page layout for non-homepage pages */
@@ -244,10 +296,11 @@ body, html {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #fafbfc !important;
 }
 
 .page-content {
-  background-color: #f9f7f4 !important;
+  background-color: #fafbfc !important;
   width: 100% !important;
   padding: 0 !important;
 }
@@ -271,7 +324,7 @@ body, html {
 
 .dark-mode-toggle:hover {
   background-color: #333;
-  color: #f9f7f4;
+  color: #fafbfc;
   transform: scale(1.1);
 }
 
@@ -279,10 +332,14 @@ body, html {
 [data-theme="dark"] {
   background-color: #20212b !important;
   color: #dadbdf !important;
+  background-image: url('../img/molecular-scatter-dark.svg');
+  background-repeat: repeat;
+  background-size: 2000px 1200px;
 }
 
 [data-theme="dark"] body {
-  background-color: #20212b !important;
+  background-color: transparent !important;
+  background-image: none !important;
   color: #dadbdf !important;
 }
 
@@ -321,6 +378,15 @@ body, html {
   background-color: #20212b !important;
 }
 
+[data-theme="dark"] header {
+  background-color: #20212b !important;
+}
+
+[data-theme="dark"] .page-layout,
+[data-theme="dark"] .page-content {
+  background-color: #20212b !important;
+}
+
 [data-theme="dark"] h1,
 [data-theme="dark"] h2,
 [data-theme="dark"] h3,
@@ -351,4 +417,47 @@ body, html {
 
 [data-theme="dark"] papertitle {
   color: #eeeff0 !important;
+}
+
+/* Light mode overrides (when system prefers dark but user toggled to light) */
+[data-theme="light"] {
+  background-color: #fafbfc !important;
+  background-image: url('../img/molecular-scatter-light.svg') !important;
+  background-repeat: repeat !important;
+  background-size: 2000px 1200px !important;
+}
+
+[data-theme="light"] body {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: inherit !important;
+}
+
+[data-theme="light"] .main-nav {
+  background-color: #fafbfc !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+[data-theme="light"] .wrapper {
+  background-color: #fafbfc !important;
+}
+
+[data-theme="light"] section {
+  background-color: #fafbfc !important;
+}
+
+[data-theme="light"] header {
+  background-color: #fafbfc !important;
+}
+
+[data-theme="light"] .page-layout,
+[data-theme="light"] .page-content {
+  background-color: #fafbfc !important;
+}
+
+/* Responsive: smaller tile on mobile */
+@media screen and (max-width: 960px) {
+  html {
+    background-size: 1000px 600px !important;
+  }
 }

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Research & Publications
+title: Publications
 permalink: /publications/
 ---
 
-# Research & Publications
+# Publications
 
 I am broadly interested in harnessing machine learning to address pressing questions in both computational biology and chemistry with a focus on building reliable ML models from unreliable data. Some of my current research interests include:
 
