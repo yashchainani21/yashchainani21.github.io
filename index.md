@@ -2,8 +2,6 @@
 layout: homepage
 ---
 
-## About Me
-
 Hi! I am a final-year PhD candidate working at the intersection of machine learning, computational biology, and cheminformatics.
 
 My research broadly focuses on making ML models more trustworthy and robust in the face of unreliable data - using synthetic data, data augmentation, multimodal contrastive learning and reinforcement learning. Unlike natural language, where large, high-quality datasets are abundant, biology and chemistry often suffer from data scarcity and noise, which makes developing methods that perform well in low-data and/ or imperfect-data regimes especially critical. Most recently, I’ve become particularly interested in leveraging these techniques to build large reasoning models for biology and chemistry. You can find all of my existing publications and select talks on my [google scholar page](https://scholar.google.com/citations?user=dyNc88kAAAAJ&hl=en&oi=ao).

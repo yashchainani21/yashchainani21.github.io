@@ -57,8 +57,13 @@ body {
 
 .nav-link.active {
   color: #333 !important;
-  text-decoration: underline !important;
+  text-decoration: none !important;
   font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="dark"] .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Add top margin to body content to account for fixed nav */
@@ -135,12 +140,12 @@ header {
 
 /* Increase font size for better readability */
 body {
-  font-size: 19px !important;
+  font-size: 20px !important;
   line-height: 1.65 !important;
 }
 
 section {
-  font-size: 19px !important;
+  font-size: 20px !important;
 }
 
 p {
@@ -151,6 +156,7 @@ p {
 header h1 {
   margin-bottom: 8px !important;
   line-height: 1.2 !important;
+  white-space: nowrap !important;
 }
 
 header position {
@@ -180,18 +186,36 @@ section h1 {
   color: #043361 !important;
   font-family: 'Inter', Arial, Helvetica, sans-serif !important;
   font-weight: 700 !important;
-  margin-top: 1.2em !important;
+  margin-top: 1.5em !important;
   margin-bottom: 0.5em !important;
+  padding-top: 0.8em !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 1.7em !important;
+}
+
+section h1:first-child {
+  border-top: none;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 section h2 {
   color: #043361 !important;
   font-family: 'Inter', Arial, Helvetica, sans-serif !important;
   font-weight: 700 !important;
-  margin-top: 1.2em !important;
+  margin-top: 1.5em !important;
   margin-bottom: 0.5em !important;
+  padding-top: 0.6em !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 1.4em !important;
+}
+
+[data-theme="dark"] section h1 {
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-theme="dark"] section h2 {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
 }
 
 /* News list: subtle dividers between items */
@@ -310,14 +334,14 @@ html {
   background: transparent;
   border: 2px solid #333;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   color: #333;
-  font-size: 16px;
+  font-size: 20px;
   transition: all 0.3s ease;
   margin-left: auto;
 }
