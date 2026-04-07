@@ -285,6 +285,7 @@ header .image img {
   overflow: hidden;
   padding-left: 30px !important;
   padding-right: 30px !important;
+  box-shadow: -50px 0 0 #fafbfc, 50px 0 0 #fafbfc !important;
 }
 
 section {
@@ -396,6 +397,7 @@ html {
 
 [data-theme="dark"] .wrapper {
   background-color: #20212b !important;
+  box-shadow: -50px 0 0 #20212b, 50px 0 0 #20212b !important;
 }
 
 [data-theme="dark"] section {
