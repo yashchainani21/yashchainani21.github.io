@@ -1,5 +1,15 @@
 main:
 
+  - title: "NPannotator: a genome- and chemistry-constrained automation for type I polyketide synthase pathway elucidation"
+    authors: <strong>Yash Chainani</strong>, Aidan Cornman, Yunha Hwang
+    conference_short: bioRxiv
+    conference: <strong>bioRxiv</strong>, 2026. Work done in collaboration with <a href="https://www.tatta.bio/">Tatta Bio</a> during my internship.
+    pdf: https://www.biorxiv.org/content/10.64898/2026.04.06.712324v1
+    journal_link: https://www.biorxiv.org/content/10.64898/2026.04.06.712324v1
+    doi: 10.64898/2026.04.06.712324
+    image: /assets/img/npannotator_fig.png
+    notes: Preprint
+
   - title: "Merging the computational design of chimeric type I polyketide synthases with enzymatic pathways for chemical biosynthesis"
     authors: <strong>Yash Chainani</strong>, Jacob Diaz, Margaret Guilarte-Silva, Vincent Blay, Quan Zhang, William Sprague, Keith E. J. Tyo, Linda J. Broadbelt, Aindrila Mukhopadhyay, Jay D. Keasling, Hector Garcia Martin & Tyler W. H. Backman
     conference_short: Nat Commun
