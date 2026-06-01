@@ -50,6 +50,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .title { font-weight: bolder; }
 
+/* Bold the author's own name (wrapped in <strong> in _data/publications.yml); overrides the theme's site-wide strong { font-weight: 500 } */
+.publications ol.bibliography li .author strong { font-weight: 700; }
+
 .publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
 
 .publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
