@@ -9,7 +9,7 @@ permalink: /contact/
 I'd love to hear from you! Feel free to reach out if you have any questions, collaborations, or opportunities.
 
 ## Email
-[yashchainani2026@u.northwestern.edu](mailto:yashchainani2026@u.northwestern.edu)
+[ychainani21@gmail.com](mailto:ychainani21@gmail.com)
 
 ## Connect with Me
 - [Google Scholar](https://scholar.google.com/citations?user=dyNc88kAAAAJ&hl=en&oi=ao)
@@ -17,6 +17,5 @@ I'd love to hear from you! Feel free to reach out if you have any questions, col
 - [GitHub]({{ site.github_link }})
 
 ## Office Location
-Northwestern University  
-Department of Chemical and Biological Engineering  
-Evanston, IL
+Bristol Myers Squibb  
+San Diego, CA
