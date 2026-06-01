@@ -1,5 +1,15 @@
 main:
 
+  - title: "TridentSynth: a webtool for the retrosynthesis of molecules using chimeric type I polyketide synthases and chemoenzymatic pathways"
+    authors: <strong>Yash Chainani</strong>, Margaret Guilarte-Silva, Kenna Roberts, Stefan Pate, Geoffrey Bonnanzio, Keith E. J. Tyo, Aindrila Mukhopadhyay, Jay D. Keasling, Hector Garcia Martin, Linda J. Broadbelt & Tyler W. H. Backman
+    conference_short: Nucleic Acids Res
+    conference: <strong>Nucleic Acids Research</strong>, 2026.
+    pdf: https://doi.org/10.1093/nar/gkag471
+    journal_link: https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkag471/8675563
+    doi: 10.1093/nar/gkag471
+    image: /assets/img/tridentsynth_fig.png
+    notes: Published
+
   - title: "NPannotator: a genome- and chemistry-constrained automation for type I polyketide synthase pathway elucidation"
     authors: <strong>Yash Chainani</strong>, Aidan Cornman, Yunha Hwang
     conference_short: bioRxiv
